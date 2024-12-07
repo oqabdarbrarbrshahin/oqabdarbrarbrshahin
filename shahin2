@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background-color: #83e4e4;
+            direction: rtl;
+        }
+        .d1{
+            background-color: #f16338;
+        }
+h1{
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    color: #f16338;
+    word-spacing: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #4c4ce1;
+}
+.d3 input{
+    margin-bottom: 25px;
+}
+.p1{
+    font-size: large;
+}
+#select1{
+    margin-bottom: 25px;
+}
+#select2{
+    margin-bottom: 25px;
+}
+    </style>
+
+
+</head>
+<body>
+<div class="d1">
+    <h1>خرید قطعات سخت افزاری کامپیوتر</h1>
+
+</div>
+<div class="d2">
+    <h2>ثبت مشخصات کاربر</h2>
+</div>
+<div class="d3">
+    <label for="text1">نام</label>
+    <input type="text" name="" id="text1">
+    <br>
+    <label for="text2">نام خانوادگی</label>
+    <input type="text" name="" id="text2">
+    <br>
+    <label for="email">ایمیل</label>
+    <input type="email" name="" id="email">
+     <p class="p1">نام قطعه:</p>
+    <input type="checkbox" name="" id="check1">
+    <label for="check1">کارت صدا</label>
+    <br>
+    <input type="checkbox" name="" id="check2">
+    <label for="check2">کارت گرافیک</label>
+    <br>
+    <input type="checkbox" name="" id="check3">
+    <label for="check3">برد اصلی</label>
+    <br>
+    <input type="checkbox" name="" id="check4">
+    <label for="check4">کارت شبکه</label>
+    <br>
+    <label for="select1">قیمت قطعه</label>
+    <select name="" id="select1">
+        <option value="">100000</option>
+        <option value="">200000</option>
+        <option value="">3500000</option>
+        <option value="">5000000</option>
+
+    </select>
+    <br>
+    <label for="select2">تعداد</label>
+    <select name="" id="select2">
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+
+    </select>
+    <br>
+    <input type="submit" name="" id="" value="ثبت" >
+    <input type="reset" name="" id="" value="بازنشانی">
+</div>
+</body>
+</html>
