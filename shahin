@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+table{
+    border: 3px black solid;
+    text-align: center;
+    margin: 0px auto;
+}
+.tr1{
+    border: 3px black solid;
+}
+h1{
+    text-align: center;
+    display: block;
+}
+td{
+    border: 3px black solid;
+}
+.td2{
+    border: none;
+}
+.td3{
+    text-align: center;
+    border: none;
+}
+  </style>
+</head>
+<body>
+<div>
+  <table>
+    <tr class="tr1">
+        <td class="td2"></td>
+       <td class="td3"> <h1>قطعات سخت افزاری</h1></td>
+    </tr>
+    <tr>
+      <td><img src="pic/download%20(1).jpg" alt="" srcset=""></td>
+      <td><img src="pic/download%20(2).jpg" alt="" srcset=""></td>
+      <td><img src="pic/download%20(3).jpg" alt="" srcset=""></td>
+    </tr>
+    <tr>
+      <td><img src="pic/download%20(4).jpg" alt="" srcset=""></td>
+      <td><img src="pic/download%20(5).jpg" alt="" srcset=""></td>
+      <td><img src="pic/download%20(6).jpg" alt="" srcset=""></td>
+    </tr>
+    <tr>
+      <td><img src="pic/download%20(7).jpg" alt="" srcset=""></td>
+      <td><img src="pic/download%20(8).jpg" alt="" srcset=""></td>
+      <td><img src="pic/download.jpg" alt="" srcset=""></td>
+    </tr>
+  </table>
+
+
+</div>
+</body>
+</html>
